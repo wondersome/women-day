@@ -10,20 +10,14 @@ body {
 .card {
   width: 640px;
   height: 400px;
-  margin-top: 180px;
-  margin-left: -85px;
-  left: 0;
-  right: 0;
-  top: 0;
-  bottom: 0;
-  -webkit-perspective: 1200px;
+
   perspective: 1200px;
   transition: 1s;
   display: flex;
-  justify-content: center;
   align-items: center;
-}
+  justify-content: center;
 
+}
 .card:hover {
   transform: rotate(-5deg);
 }
