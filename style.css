@@ -17,7 +17,7 @@ transform: perspective(2500px);
 }
 
 .birthdayCard:hover {
-transform: perspective(2500px) rotate(5deg);
+transform: perspective(2500px) ;
 box-shadow: inset 100px 20px 100px rgba(0,0,0,.2), 0 10px 100px rgba(0,0,0,0.5);
 }
 
