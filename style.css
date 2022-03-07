@@ -12,8 +12,10 @@ body {
   height: 400px;
   position: absolute;
   margin: auto;
+  margin-left: 0px;
   left: 0;
-  right: 300px;
+  margin-left: 0px;
+  right: 1200px;
   top: 0;
   bottom: 0;
   -webkit-perspective: 1200px;
