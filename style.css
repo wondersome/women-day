@@ -8,14 +8,17 @@ body {
   background-color: #fdbf00;
 }
 .card {
-  width: 640px;
-  height: 400px;
-
-  perspective: 1200px;
+  width: 540px;
+  height: 300px;
+  position: absolute;
+  margin: auto;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  -webkit-perspective: 600px;
+  perspective: 1400px;
   transition: 1s;
-  display: flex;
-  align-items: center;
-  justify-content: center;
 
 }
 .card:hover {
